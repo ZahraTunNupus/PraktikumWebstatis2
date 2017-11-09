@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<link rel="stylesheet"href="http://k">
+		<style>
+		/* css untuk class container*/
+		div.container{
+			width:"100%";
+			background-color:aliceblue;
+			font-family: 'segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
+		}
+		/*css untuk class header dan footer*/
+		header, footer{
+			clear:left;
+			background-color: blue;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: black;
+			text-align: center;
+		}
+		/*css untuk navigasi*/
+		nav{
+			background-color: lightblue;
+			display: block;
+			width: 100%;
+			height: 40px;
+			clear: left;
+
+		}
+		nav ul{
+			padding: 0;
+			margin: 0;
+		}
+		nav ul li{
+			display: block;
+			width: 120px;
+			height: 40px;
+			background-color:lightblue ;
+			float: left;
+			text-align: center;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color: white;
+		}
+		/*css untuk article*/
+		article{
+			max-width: 75%;
+			padding-right: 5px;
+			float: left;
+			padding-left: 5px;
+			padding-right: 5px;
+			background-image: "Image-.jpg" ;
+			border-right: 1px;
+		}
+		/*css untuk bagian samping*/
+		aside{
+			overflow: hidden;
+
+		}
+		/*style untuk setiap elemen*/
+		label, input, button{
+			display: block;
+		}
+		input, button{
+			border: 1px solid #fcfcfc;
+			font-size: 14px;
+			padding: 5px;
+		}
+		button{
+			background-color:bround;
+			color; white;
+			margin-top: 10px;
+		}
+		p{
+			text-align: justify;	
+			font-family: cursive;
+		}
+		p.copyright{
+			text-align: center;
+		}
+		</style>
+		<title></title>
+	</head>
+	<body>
+	<!-- element terluar dari sebuah susunan layout -->
+	<div class="container" id="container">
+		<!-- untuk header sebuah webside -->
+		<header><h2>Newman security 11.06.17 05:00pm</h2></header>
+		<!-- navigasi webside -->
+		<nav>
+			<ul>
+				<li><a href="#"><i class="fa fa-home"></i> Home </a></li>
+				<li><a href="#"><i class="fa fa-file-text"></i> Profile </a></li>
+				<li><a href="#"><i class="fa fa-envelope"></i> Contact </a></li>
+				<li><a href="#"><i class="fa fa-envelope"></i> Inbox </a></li>
+				<li><a href="#"><i class="fa fa-envelope"></i> Calender </a></li>
+			</ul>
+		</nav>
+		<!-- artikel website -->
+		<article >
+			<h3>How a Tiny Error Shut Off the Internet for Parts of the US</h3>
+			<p><img src="AAuwtKh.jpg" ></p>
+			<p>
+			 A year ago, a DDoS attack caused internet outages around the US by targeting the internet-infrastructure company Dyn, which provides Domain Name System services to look up web servers. Monday saw a nationwide series of outages as well, but with a more pedestrian cause: a misconfiguration at Level 3, an internet backbone company and enterprise ISP that underpins other big networks. Network analysts say that the misconfiguration was a routing issue that created a ripple effect, causing problems for companies like Comcast, Spectrum, Verizon, Cox, and RCN across the country.<p>Level 3, whose acquisition by CenturyLink closed recently, said in a statement to WIRED that it resolved the issue in about 90 minutes. "Our network experienced a service disruption affecting some customers with IP-based services," the company said. "The disruption was caused by a configuration error." Comcast users started reporting internet outages around the time of the Level 3 outages on Monday, but the company said that it was monitoring "an external network issue" and not a problem with its own infrastructure. RCN confirmed that it had some network problems on Monday because of Level 3. The company said it had restored RCN service by rerouting traffic to a different backbone.
+			</p>
+		</article>
+		<!-- sisa website -->
+		<aside>
+			<h3>Login facebook</h3>
+			<form>
+				<label>username</label>
+				<input id="username" value"" type="text" placeholder="">
+				<label>Password</label>
+				<input id="Password" value"" type="text" placeholder="">
+				<button><i class="="fa fa-sign-in"></i>Login</button>
+			</form>
+		</aside>
+		<footer><p class="copyright"> Zahratunnupus (1655201110017) copyright &copy; 2017</p></footer>
+	</div>
+	</body>
+</html>
